@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shaders>
+	<shader id="0">
+		<name>normal</name>
+		<path>Shaders/normal.glsl</path>
+	</shader>
+	<shader id="1">
+		<name>grises</name>
+		<path>Shaders/grises.glsl</path>
+	</shader>
+	<shader id="2">
+		<name>flip</name>
+		<path>Shaders/flip.glsl</path>
+	</shader>
+	<shader id="3">
+		<name>colors</name>
+		<path>Shaders/colors.glsl</path>
+		<properties>
+			time
+		</properties>
+	</shader>
+	<shader id="4">
+		<name>shines</name>
+		<path>Shaders/shines.glsl</path>
+	</shader>
+	<shader id="5">
+		<name>test</name>
+		<path>Shaders/test.glsl</path>
+		<properties>
+			camera;mouse;resolution
+		</properties>
+		<!--<image>
+			<type>png</type><path>default.png</path>
+		</image>-->
+	</shader>
+</shaders>
